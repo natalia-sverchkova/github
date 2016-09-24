@@ -6,5 +6,10 @@ git status
 git commit -m "Added commands to upload code to github"
 git push -u origin master
 
+# when file is modified
+git add .
+git commit -m 'Added necessary lines'
+git push -u origin master
+
 # Was helpful when I got fatal error while uploading .ipynb
 git config --global core.safecrlf false
