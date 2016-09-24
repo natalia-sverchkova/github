@@ -1,0 +1,4 @@
+cd C:/Users/User/Documents/educational/github
+git init
+git remote add origin https://github.com/natalia-sverchkova/github.git
+git add README.md
