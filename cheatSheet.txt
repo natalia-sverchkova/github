@@ -1,4 +1,10 @@
 cd C:/Users/User/Documents/educational/github
 git init
 git remote add origin https://github.com/natalia-sverchkova/github.git
-git add README.md
+git add --all
+git status
+git commit -m "Added commands to upload code to github"
+git push -u origin master
+
+# Was helpful when I got fatal error while uploading .ipynb
+git config --global core.safecrlf false
